@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Meine ToDo-Liste</title>
+    <!-- Link correto para o arquivo CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>Meine ToDo-Liste</h1>
+
+    <form id="todoForm">
+        <input type="text" id="todoInput" placeholder="Neue Aufgabe eingeben" required>
+        <button type="submit">Hinzufügen</button>
+    </form>
+
+    <h2>Ungeordnete Liste:</h2>
+    <ul id="todoList"></ul>
+
+    <h2>Geordnete Liste:</h2>
+    <ol id="todoListGeordnet"></ol>
+  </main>
+
+  <!-- Link do JavaScript -->
+  <script src="/static/script.js"></script>
+</body>
+</html>
