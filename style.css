@@ -1,5 +1,4 @@
 
-/* Estilo geral da página */
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff7f0;
@@ -12,7 +11,6 @@ body {
     align-items: center;
 }
 
-/* Container centralizado */
 main {
     width: 100%;
     max-width: 600px;
@@ -23,14 +21,12 @@ main {
     text-align: center;
 }
 
-/* Título */
 h1 {
     color: #6b4c9a;
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
-/* Formulário */
 form {
     display: flex;
     justify-content: center;
@@ -61,7 +57,6 @@ button:hover {
     background-color: #9461d4;
 }
 
-/* Listas */
 ul, ol {
     list-style: none;
     padding: 0;
@@ -80,7 +75,6 @@ li {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
 }
 
-/* Área dos botões */
 li .actions {
     display: flex;
     gap: 0.75rem;
